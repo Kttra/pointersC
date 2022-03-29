@@ -6,4 +6,4 @@ values will not change.
 
 This is valuable to know when you want to pass a variable through a function
 and edit it wtihout needing to return it. I would recommend passing by reference because it is much easier to
-remember and understand (only possible in C).
+remember and understand (only possible in C++).
