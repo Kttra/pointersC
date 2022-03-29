@@ -47,15 +47,15 @@ int main()
     array[0] = 95;
     cout << "Array first value: " << array[0] << endl;
     
-    //Array Passing
+    //Array Passing, no change
     passingArray(array);
     cout << "Array after passing: " << array[0] << endl;
     
-    //Array Passing by pointer
+    //Array Passing by pointer, changes
     passingPointerArray(&array);
     cout << "Array after passing by pointer: " << array[0] << endl;
     
-    //Array Passing by reference
+    //Array Passing by reference, changes
     passingRefArray(array);
     cout << "Array after passing by reference: " << array[0];
 
