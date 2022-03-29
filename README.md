@@ -7,3 +7,15 @@ values will not change.
 This is valuable to know when you want to pass a variable through a function
 and edit it wtihout needing to return it. I would recommend passing by reference because it is much easier to
 remember and understand (only possible in C++).
+
+In each of the functions, we change the value. However, the value may or may not change depending on how the function is passed to the function. This program covers which types of passing their there.
+```
+Starting num: 5
+Num after passing: 5
+Num after passing its address: 7 
+Num after passing by reference: 8
+Array first value: 95
+Array after passing: 95
+Array after passing by pointer: 96
+Array after passing by reference: 97
+```
