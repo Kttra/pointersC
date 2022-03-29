@@ -8,7 +8,7 @@ This is valuable to know when you want to pass a variable through a function
 and edit it wtihout needing to return it. I would recommend passing by reference because it is much easier to
 remember and understand (only possible in C++).
 
-In each of the functions, we change the value. However, the value may or may not change depending on how the function is passed to the function. This program covers which types of passing their there.
+In each of the functions, we change the value. However, the value may or may not change depending on how the function is passed to the function. This program covers which types of passing there is.
 ```
 Starting num: 5
 Num after passing: 5
